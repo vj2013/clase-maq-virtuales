@@ -1,0 +1,16 @@
+Q1. ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?
+A1. Debido a que algunos L.P son compatibles con ciertos S.O, ya que depende de diferentes factores como
+    mucho el tipo de plataforma, disponibilidad de ciertas bibliotecas que son compatibles con el sistema o 
+    tambien su optimizacion para ciertas arquitecturas especificas.
+
+Q2. ¿Qué tipo de máquina virtual soporta virtualBox?
+A2. Permiten  Sistemas Operativos, Linux y distribuciones, Windows, MacOS.
+
+Q3. ¿Qué función cumple el hypervisor en la virtualización?
+A3. Permite crear y gestionar máquinas virtuales (VM) en un entorno de host físico. 
+    El hypervisor permite que múltiples sistemas operativos y sus respectivas aplicaciones se ejecuten de 
+    manera aislada y eficiente en un único servidor físico.
+
+Q4. Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+A4. No debreia si esta bien configurado, ya que se basa en los principios de aislamiento y separación 
+    que los hypervisors aplican entre las máquinas virtuales. 
